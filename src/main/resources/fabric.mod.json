@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "projectlocate",
+	"version": "${version}",
+	"name": "Project Locate",
+	"description": "A custom structure locator that scans loaded chunks for structure signatures using heuristic block detection.",
+	"authors": [
+		"Project Locate Team"
+	],
+	"contact": {
+		"homepage": "https://github.com/projectlocate"
+	},
+	"license": "MIT",
+	"icon": "assets/projectlocate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.projectlocate.ProjectLocateMod"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
